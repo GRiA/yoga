@@ -143,7 +143,7 @@ public:
     return true;
   }
 
-  Values& operator=(const Values& other) = default;
+  //Values& operator=(const Values& other) = default;
 };
 
 } // namespace detail
