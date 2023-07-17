@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |spec|
   spec.name = 'Yoga'
-  spec.version = '1.14.0'
+  spec.version = '1.14.1'
   spec.license =  { :type => 'MIT', :file => "LICENSE" }
   spec.homepage = 'https://yogalayout.com/'
   spec.documentation_url = 'https://yogalayout.com/docs'
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
 
   spec.authors = 'Facebook'
   spec.source = {
-    :git => 'https://github.com/facebook/yoga.git',
+    :git => 'https://github.com/GRiA/yoga.git',
     :tag => spec.version.to_s,
   }
   spec.platforms = { :ios => "8.0", :osx => "10.7", :tvos => "10.0", :watchos => "2.0" }
