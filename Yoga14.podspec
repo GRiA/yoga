@@ -6,12 +6,12 @@
 #
 Pod::Spec.new do |spec|
   spec.name = 'Yoga14'
-  spec.version = '1.14.3'
+  spec.version = '1.14.4'
   spec.license =  { :type => 'MIT', :file => "LICENSE" }
-  spec.homepage = 'https://yogalayout.com/'
-  spec.documentation_url = 'https://yogalayout.com/docs'
+  spec.homepage = 'https://github.com/GRiA/yoga'
+  spec.documentation_url = 'https://github.com/GRiA/yoga'
 
-  spec.summary = 'Yoga is a cross-platform layout engine which implements Flexbox.'
+  spec.summary = 'Yoga is a cross-platform layout engine which implements Flexbox. Fixed for XCode 14.3'
   spec.description = 'Yoga is a cross-platform layout engine enabling maximum collaboration within your team by implementing an API many designers are familiar with, and opening it up to developers across different platforms.'
 
   spec.authors = 'Facebook'
