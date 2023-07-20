@@ -35,5 +35,8 @@ Pod::Spec.new do |spec|
   ]
   spec.source_files = 'yoga/**/*.{c,h,cpp}'
   spec.public_header_files = 'yoga/{Yoga,YGEnums,YGMacros,YGValue}.h'
-
+  spec.xcconfig = {
+    'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++17',
+    'CLANG_CXX_LIBRARY' => 'libc++',
+  }
 end
