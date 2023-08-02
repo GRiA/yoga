@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |spec|
   spec.name = 'Yoga14'
-  spec.version = '1.14.5'
+  spec.version = '1.14.5.1'
   spec.license =  { :type => 'MIT', :file => "LICENSE" }
   spec.homepage = 'https://github.com/GRiA/yoga'
   spec.documentation_url = 'https://github.com/GRiA/yoga'
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
     :git => 'https://github.com/GRiA/yoga.git',
     :tag => spec.version.to_s,
   }
-  spec.platforms = { :ios => "14.0", :osx => "10.13", :tvos => "11.0", :watchos => "4.0" }
+  spec.platforms = { :ios => "14.0", :osx => "10.13" }
   spec.module_name = 'yoga'
   spec.requires_arc = false
   spec.pod_target_xcconfig = {
@@ -35,8 +35,8 @@ Pod::Spec.new do |spec|
   ]
   spec.source_files = 'yoga/**/*.{c,h,cpp}'
   spec.public_header_files = 'yoga/{Yoga,YGEnums,YGMacros,YGValue}.h'
-  spec.xcconfig = {
-    'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++17',
-    'CLANG_CXX_LIBRARY' => 'libc++',
-  }
+  #spec.xcconfig = {
+  #  'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++17',
+  #  'CLANG_CXX_LIBRARY' => 'libc++',
+  #}
 end
